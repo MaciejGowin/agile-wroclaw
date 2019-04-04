@@ -1,19 +1,19 @@
 # IT topics #
 
 ## 1. Architecture ##
-* relations (one-to-many, many-to-many)
-* backend system (BE)
-* frontend system (FE)
-* cloud system (AWS, Azure)
-* microservice
-* monolith system/application
-* No-SQL database
-* relational database
-* proxy
-* security
+* **relations (one-to-many, many-to-many)** - poprzez relację rozumiemy zalezność pomiedzy komponentami, zasobami, itp. Jako przykładu możemy użyć relacji ojciec-syn. Jest to typowa relacja jeden-do-wielu (one-to-many). Jeden ojciec może posiadać wielu synów, ale konkretny syn ma tylko jednego ojca.
+* **backend system (BE)** - to system odpowiedzialny za przetwarzanie danych otrzymanych lub wykonywanie zadań przekazanych przez system FE. W odpowiedzi na rządanie może on udzielić odpowiedzi i przekazać rezultaty do systemu FE.
+* **frontend system (FE)** - to system zbierający rządania klienta i przekazujący zadania do systemu BE.
+* **cloud system (AWS, Azure)** - system odpowiedzialny za dynamiczne tworzenie zasobów infrastruktury taki jak serwery, połączenia sieciowe, bazy danych itp. Różni się to od podejscia, w którym wszystkie zasoby są predefiniowane a każde nowe wymagania są związane z ingerencją zespołu odpowiedzialnego za infrastrukturę.
+* **microservice** - system odpowiedzialny za konkretną funkcjonalność. Dostarcza rozwiązań dla jasno określonej domeny.
+* **monolith system/application** - system odpowiedzilny za realicję złożonych zadań obejmujących wiele zadań, które niekoniecznie są związane z tą samą domeną.
+* **No-SQL database** - baza danych, w której dane są modelowane w sposób inny niż za pomocą relacji znanych relacyjnych baz danych.
+* **relational database** - baza daych, w której podstawą modelowania danych są relacje.
+* **proxy** - pośrednik w systemach informatycznych. Odpowiedzialny za wykonywanie działań w imieniu osoby wysyłającej rządanie.
+* **security** - ogólnie pojęte bezpieczeństwo, które może odnosić się do bezpieczeństwa sieci, systemów, danych, itp.
 * WebService
 * Rest API
-* netowork
+* network
 * LDAP/AD
 * microservice
 * API
