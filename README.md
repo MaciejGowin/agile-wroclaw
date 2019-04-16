@@ -42,21 +42,21 @@
 * **programming language** - język programowania czyli zbiór reguł opisujących w jaki sposób ciąg znaków jest interpretowany oraz jakie czynności reprezentuje. Przykładami języków programowania są: Java, JavaScript, Python, C++, PHP, Ruby.
 * **programming framework** - zbiór rozwiązań programistycznych dla danej grupy problemów, które mogą zostać w łatwy sposów rozszerzone w celu dostarczenia danej fukcjonalności systemu. Przykładami frameworków są: Spring, .Net Core, Angular.js.
 * **library** - zbiór niskopoziomowych rozwiązań programistycznych dla ściśle okreslonej grupy problemów.
-* Open Source
-* object-oriented programming (class, object)
-* IDE
-* source code
-* SQL
-* React Native
+* **Open Source** - wolne oprogramowanie czyli takie, które jest dostępne dla każdego bez żadnych opłat. Istnieją różne poziomy, które definiują w jaki sposów może one zostań użyte oraz przetworzone.
+* **object-oriented programming (class, object)** - typ programowania, które opiera się na definiowaniu obieków oraz ich zachowań.
+* **IDE** - system służące do tworzenia oprogramowania
+* **source code** - kod źródłowy, pliki tekstowe definiujące system
+* **SQL** - język programowanie stworzony do zarządzania danymi w relacyjnych bazach danych.
+* **React Native** - framework stworzony przy użyciu języka JavaScript pozwalający na tworzenie natywnych aplikacji mobilnych dla platform Android i iOS.
 * HTML, CSS
-* VBA
-* Full Stack
-* pair programming
-* cross platform
+* **VBA** - język programowania oparty na Visual Basicu (VB) zaimplementowany w aplikacjach pakietu Microsoft Office.
+* **Full Stack** - pojęcie używane w odniesieniu do programisty tworzącego aplikacje przy użyciu technologi FE i BE. Umożliwia to dostarczenie pełnej funkcjonalności przez jedną osobę.
+* **pair programming** - technika programowania, w której odbywa się ono w parach.
+* **cross platform** - dostępny/działający na wielu platformach.
 * PL/SQL
 * T-SQL
-* specification (technical standard)
-* algorithm (sorting algorithm)
+* **specification** - definicja systemu infrmatycznego, jego zachowań i sposobu działania.
+* **algorithm** - algorytm, zestaw instrukcji służących do rozwiązania danego programu. Przykładam mogą być algorytmy sotrowania.
 * compiler
 * development environment
 * Assembler
