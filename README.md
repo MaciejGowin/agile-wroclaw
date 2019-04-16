@@ -39,9 +39,9 @@
 * **high-level design (HLD)** - architektura wysokopoziomowa
 
 ## 2. Development ##
-* programming language (Java, JavaScript, Python, C++, PHP, Ruby)
-* programming framework (Spring, .Net Core, Angular.js)
-* library
+* **programming language** - język programowania czyli zbiór reguł opisujących w jaki sposób ciąg znaków jest interpretowany oraz jakie czynności reprezentuje. Przykładami języków programowania są: Java, JavaScript, Python, C++, PHP, Ruby.
+* **programming framework** - zbiór rozwiązań programistycznych dla danej grupy problemów, które mogą zostać w łatwy sposów rozszerzone w celu dostarczenia danej fukcjonalności systemu. Przykładami frameworków są: Spring, .Net Core, Angular.js.
+* **library** - zbiór niskopoziomowych rozwiązań programistycznych dla ściśle okreslonej grupy problemów.
 * Open Source
 * object-oriented programming (class, object)
 * IDE
