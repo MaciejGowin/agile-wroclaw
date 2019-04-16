@@ -11,33 +11,32 @@
 * **relational database** - baza daych, w której podstawą modelowania danych są relacje.
 * **proxy** - pośrednik w systemach informatycznych. Odpowiedzialny za wykonywanie działań w imieniu osoby wysyłającej rządanie.
 * **security** - ogólnie pojęte bezpieczeństwo, które może odnosić się do bezpieczeństwa sieci, systemów, danych, itp.
-* WebService
-* Rest API
-* network
-* LDAP/AD
-* microservice
-* API
-* schema
-* diagram
-* WebSocket
-* batch processing
-* online communication
-* database
-* P2P (Peer to Peer)
-* service bus
-* design pattern
-* distributed system
-* functional/non-functional requirements
-* business requirements
-* stateful/stateless
-* load balancer
-* caching
-* parsing
-* client-server
-* queue (MQ, RabbitMQ)
-* communication channel
-* low-level design (LLD)
-* high-level design (HLD)
+* **WebService** - usługa sieciowa mająca na celu przetworzenie otrzymanego żądania, którego format jest z góry określony. Najczęstszym przykładem usługi sieciowej jest system odpowiadający na predefiniowane zapytania przy użyciu protokołu HTTP w formacie XML.
+* **Rest API** - podejcie do architektury systemów, w którym wymiana danych pomiędzy systemami odbywa się w sposób bezstanowy poprzez jednorodny interfejs.
+* **network** - sieć, często używane w odniesieniu do sieci komputerowej czyli logicznie i/lub fizycznie połączonych urządzeń.
+* **LDAP/AD** - protokół używany do operacji na usługach katalogowych opartych o zasoby takie jak: użytkownicy, aplikacje, urządzenia sieciowe i inne zasoby sieciowe. AD jest implementacją protokołu LDAP dla systemów Windows.
+* **API** - zbiór ściśle określonych reguł, za pomocą których systemu komunikują się między sobą.
+* **schema** - szerokorozumiany schemat czyli opis danej struktury, systemu czy standardu.
+* **diagram** - graficzna reprezentacja danego rozwiązania
+* **WebSocket** - protokół komunikacji pomiędzy dwuma kanałami przy użyciu jednego połączenia TCP.
+* **batch processing** - przetwarzanie, w którym brana jest pod uwagę większa partia danych/zasobów.
+* **online communication** - komunikacja internegowa
+* **database** - system odpowiedzialny za przechowywanie danych w sposób z góry zdefiniowany. Pojęcie używane też w odniesieniu do samego zbioru danych.
+* **P2P (Peer to Peer)** - komunikacja klient-klient, która odbywa się bezposrednio pomiędzy systemami zainteresowanymi bez użycia systemu trzeciego (serwer).
+* **service bus** - szyna usług, system pośredniczący w komunikacji pomiędzy systemami pozwalający na łatwe dodawanie i usuwanie komponentów z całego ekosystemu.
+* **design pattern** - wzorzec projektowy, znane rozwiązanie problemu, który często występuje i jest dobrze znany.
+* **distributed system** - system rozproszony, system, w którym częsci składowe komunikują się między sobą za pomocą sieci komputerowej poprzez wymianę komunikatów.
+* **functional/non-functional requirements** - wymagania fukcjonalne definiują system i jego komponenty, sposób komunikacji pomiędzy nimi. Wymagania niefukcjonalne definiują natomiast kryteria, przy użyciu których ocenić jakość działania systemu.
+* **business requirements** - wymagania biznesowe, zbiór zasad działania systemu zdefiniowanych przez osoby definiujące wysokopoziomowe zasady działania systemu.
+* **stateful/stateless** - stanowość odnosi się to przechowywania przez system stanu/histori zachowań klienta. W systemie bezstanowym historia zachowań nie ma znaczenia - każde kolejne żądanie jest traktowane jako całkowicie nowe zapytanie.
+* **load balancer** - system odpowiedzialny za rozproszenie obciążenia i przekierowywanie żądań do systemów będących w stanie odpowiedzieć za dane zapytanie.
+* **caching** - sposób zwiększenia szybkości dostępu do danych poprzez częściowe ich przeniesienie z wartwy trudno dostępnej do wartwy łatwo dostępnej.
+* **parsing** - przetwarzanie ciągu symboli w zdefiniowany wcześniej sposób.
+* **client-server** - architektóra systemów, w którym klient wysyła żądania do serwera, który odpowiedzialny jest za dostarczenie usług.
+* **queue (MQ, RabbitMQ)** - kolejka czyli struktura danych, w której elementy są dodawane na końcu a pobierane z począktu.
+* **communication channel** - szerokorozumiany kanał komunikacji
+* **low-level design (LLD)** - architektura niskopoziomowa
+* **high-level design (HLD)** - architektura wysokopoziomowa
 
 ## 2. Development ##
 * programming language (Java, JavaScript, Python, C++, PHP, Ruby)
