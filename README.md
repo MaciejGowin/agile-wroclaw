@@ -48,22 +48,23 @@
 * **source code** - kod źródłowy, pliki tekstowe definiujące system
 * **SQL** - język programowanie stworzony do zarządzania danymi w relacyjnych bazach danych.
 * **React Native** - framework stworzony przy użyciu języka JavaScript pozwalający na tworzenie natywnych aplikacji mobilnych dla platform Android i iOS.
-* HTML, CSS
+* **HTML** - język znaczników pozwalający na opisanie struktury strony internetowej wraz nadaniem jej fragmentom znaczenia semantycznego.
+* **CSS** - język służacy do opisu warstwy prezentacji strony internetowej.
 * **VBA** - język programowania oparty na Visual Basicu (VB) zaimplementowany w aplikacjach pakietu Microsoft Office.
 * **Full Stack** - pojęcie używane w odniesieniu do programisty tworzącego aplikacje przy użyciu technologi FE i BE. Umożliwia to dostarczenie pełnej funkcjonalności przez jedną osobę.
 * **pair programming** - technika programowania, w której odbywa się ono w parach.
 * **cross platform** - dostępny/działający na wielu platformach.
-* PL/SQL
-* T-SQL
-* **specification** - definicja systemu infrmatycznego, jego zachowań i sposobu działania.
+* **PL/SQL** - rozszerzenie języka SQL dla baz danych Oracle.
+* **T-SQL** - rozszerzenie języka SQL dla baz danych Microsoft.
+* **specification** - definicja systemu informatycznego, jego zachowań i sposobu działania.
 * **algorithm** - algorytm, zestaw instrukcji służących do rozwiązania danego programu. Przykładam mogą być algorytmy sotrowania.
-* compiler
-* development environment
-* Assembler
-* domain
+* **compiler** - program służący do automatycznego tłumaczenia kodu napisanego w jednym języku (języku źródłowym) na równoważny kod w innym języku (języku wynikowym).
+* **development environment** - środowisko programistyczne
+* **assembler** - program tłumaczący kod źródłowy na kod maszynowy.
+* **domain** - domena
 
 ## 3. Code Management ##
-* version control system (VCS)
+* **version control system (VCS)** - system kontroli wersji służący do zarządzania kodem zródłowym. Przykładami systemów są: Git, SVN.
 * Git
 * Bitbucket, GitHub
 * code branch
@@ -95,7 +96,7 @@
 * release
 
 ## 5. Quality Assurance ##
-* bug
+* **bug** - błąd, który wystąpił w oprogramowaniu. Jest to zachowanie niezgodne z wymaganiami.
 * unit test
 * integration test
 * performance test
@@ -112,33 +113,32 @@
 * functional test
 * mutation test
 * component test
-* test tool
-* test environment (DEV, SIT, UAT)
-* test standards
+* **test tool** - narzędzie służące do testów
+* test environment (DEV, SIT, UAT) - środowisko testowe
+* **test standards** - szerokopojęte standardy testowania
 * test case
-* test scenario
-* code coverage
-* Selenium
-* ISTQB
-* reopen
+* **test scenario** - scenariusz testów czyli zbiór działań mających na celu sprawdzenie danej funkcjonalności
+* **code coverage** - pokrycie testami
+* **Selenium** - oprogramowanie służące do automatyzacji testów dla stron internetowych
+* **ISTQB** - certyfikat dla testerów oprogramowania
+* **reopen** - status dla zgłoszenia mowiący o tym, iż zostało ono po raz kolejny otwarte w związku z ponownym pojawieniem się niezgodności z założeniami systemu.
 * user story
 * Jira
 * Cucumber
 * Selenium
-* regression
-* release blocker
-* lack of requirements
-* acceptance criteria
-* specification
+* **regression test** - test mający na celu zapewnienie, że zmiany w oprogramowaniu nie wpłyneły niekorzystnie na istniejące wcześniej funkcjonalności.
+* **release blocker** - błąd, który sprawia, że nowa wersja oprogramowania nie może zostać wdrożona w związku niewłaściwym zachowaniem systemu
+* **lack of requirements** - brak wymagań
+* **acceptance criteria** - kryteria akceptacyjne definiowane w celu określenia ram dla ktrych dana fukcjonalność jest uznawana za działającą zgodnie z wymaganiami.
 * Definition of Done (DoD)
 * Definition of Ready (DoR)
-* priorities
+* **priorities** - priorytety dla zadań
 
 ## 6. Maintenance ##
-* support
-* 1st/2nd/3rd Line Support
+* **support** - grupa ludzi lub systemów odpowiedzialna za wsparcie systemu w trakcie jego działania.
+* **1st/2nd/3rd Line Support** - poziomy wsparcia dla systemw informatycznych
 * hotfix
-* backlog
+* **backlog** - lista zadań do wykonania. Może składać sięz nowych funkcjonalności, poprawek, ulepszeń. 
 * code revert
 * life cycle politics
 * customer service
