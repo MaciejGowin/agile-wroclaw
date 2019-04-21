@@ -121,10 +121,10 @@
 * **Selenium** - oprogramowanie służące do automatyzacji testów dla stron internetowych
 * **ISTQB** - certyfikat dla testerów oprogramowania
 * **reopen** - status dla zgłoszenia mowiący o tym, iż zostało ono po raz kolejny otwarte w związku z ponownym pojawieniem się niezgodności z założeniami systemu.
-* user story
-* Jira
-* Cucumber
-* Selenium
+* **user story** - opis wymagań systemowych zdefiniowanych z punktu widzenie użytkownika końcowego.
+* **Jira** - narzędzie służące do zarządzania projektami informatycznymi. Używany głównie do utrzymywania zadań oraz sprawdzania postępu prac.
+* **Cucumber** - narzędzie do tworzenia testów automatycznych pisanych przy użyciu programowania behawioralnego.
+* **Selenium** - narzędzie służące do automatyzacji testów dla aplikacji opartych na przegląrkach internetowcyh (strony internetowe).
 * **regression test** - test mający na celu zapewnienie, że zmiany w oprogramowaniu nie wpłyneły niekorzystnie na istniejące wcześniej funkcjonalności.
 * **release blocker** - błąd, który sprawia, że nowa wersja oprogramowania nie może zostać wdrożona w związku niewłaściwym zachowaniem systemu
 * **lack of requirements** - brak wymagań
