@@ -65,16 +65,16 @@
 
 ## 3. Code Management ##
 * **version control system (VCS)** - system kontroli wersji służący do zarządzania kodem zródłowym. Przykładami systemów są: Git, SVN.
-* Git
-* Bitbucket, GitHub
-* code branch
-* code merge
-* feature cherry picking
-* version (1.2.15, 1.3.0)
-* repository
-* code review
-* commit
-* code review tool (Gerrit)
+* **Git** - jeden z najpopularniejszych systemow kontroli wejsji oparty na rozproszonych repozytoriach kodu.
+* **Bitbucket, GitHub** - serwisy hostingu internetowego wspierające projekty informatyczne oparte na systemie Git pozwalające na zdalne przechowywanie zasobów.
+* **code branch** - ścieżka/gałęź definiująca konkretną wersję systemu
+* **code merge** - proces łączenia dwóch wersji kodu w jedną.
+* **feature cherry picking** - proces wyciągania konkretnej funkcjonalności systemu z jednej gałęzi i łączenie jej z inną gałęzią.
+* **version (1.2.15, 1.3.0)** - definicja numeru wersji oprogramowania, w standardzie to wartość trzycyfrowa.
+* **repository** - miejsce przechowywania kodu.
+* **code review** - proces sprawdzania jakości kodu przez programistów. Odbywa się przeważnie wzajemnie przez członków zespołu.
+* **commit** - jednostkowa zmiana w kodzie dodana do repozytorium kodu.
+* **code review tool (Gerrit)** - narzędzia ułatwiające i przyspieszające proces sprawdzania jakości kodu.
 
 ## 4. Delivery ##
 * cloud
