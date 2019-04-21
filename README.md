@@ -97,26 +97,25 @@
 
 ## 5. Quality Assurance ##
 * **bug** - błąd, który wystąpił w oprogramowaniu. Jest to zachowanie niezgodne z wymaganiami.
-* unit test
-* integration test
-* performance test
-* regression test
-* manual test
-* acceptance test
-* exploratory test
-* security test
-* automation test
-* E2E (end to end) test
-* smoke test
-* behavioral test
-* stress test
-* functional test
-* mutation test
-* component test
+* **unit test** - test jednostkowy, test oprogramowania testujący mały fragment kodu odpowiedzialny za konkretną funkcjonalność, zwyczajowy tworzony przez programistów i uruchamiany automatycznie w procesie budowania oprogramowania.
+* **integration test** - test integracyjny, testmający na celu sprawdzenie współdziałania komponentów systemu.
+* **performance test** - test wydajnościowy, test sprawdzający zachowanie systemu przy danym obciążeniu. Przykładem może być test strony internetowej przy założeniu, że jest odwiedzana przez daną ilość klientów w tym samym momencie.
+* **manual test** - test manualny, test wykonywany przez testera ręcznie bez użycia systemów automatyzujących proces.
+* **acceptance test** - test akceptacyjny, test wykonywany w celu uzyskania akceptacji i zielonego swiatła dla procesu uruchomienia nowej wersji systemu na danym śwodowisku.
+* **exploratory test** - test eksploracyjny, ogólny opis procesu jednoczesnego uczenia się, projektowania i wykonywania testów.
+* **security test** - test bezpieczeństwa, test sprawdzający działanie systemu pod względem możliwych naruszeń bezpieczeństwa i możliwych luk, które umożliwyłyby potencjalne ataki.
+* **automation test** - test automatyczne, test, kóry może być uruchamiany wielorazowo i nie wymaga ingerencji człowieka. Jego głównym założeniem jest jednorazowe stworzenie i wielokrotna możliwość uruchomienia.
+* **E2E (end to end) test** - test mający na celu sprawdzenie zachowania aplikacji oraz danej funkcjonalności od początku do końca.
+* **smoke test** - test mający na celu sprawdzenie głównych funkcjonalności systemu bez wykonywania dogłębnej analizy szczegółów.
+* **behavioral test** - test sprawdzający zachowanie danej fukcjonalności aplikacji.
+* **stress test** - test sprawdzający działanie systemu przy większym natężeniu użytkowania.
+* **functional test** - test sprawdzajacy dzialanie systemu zgodne z opisanymi wymaganiami funkcjonalnymi.
+* **component test** - test komponentu, w podejściu tym każda część systemu/komponent jest testowana z osobna.
+* **mutation test** - testy mutacyjne, polegają na wrowadzaniu w systemie losowych błędów i uruchamianiu testów automatycznych w celu spradzenia, czy błędy te zostaną wykryte.
 * **test tool** - narzędzie służące do testów
-* test environment (DEV, SIT, UAT) - środowisko testowe
+* **test environment (DEV, SIT, UAT)** - środowisko testowe
 * **test standards** - szerokopojęte standardy testowania
-* test case
+* **test case** - specyfikacja danych wejściowych, warunków wykonania i oczekiwanch rezultatów, które definiują test wykonywany w konkretnym celu.
 * **test scenario** - scenariusz testów czyli zbiór działań mających na celu sprawdzenie danej funkcjonalności
 * **code coverage** - pokrycie testami
 * **Selenium** - oprogramowanie służące do automatyzacji testów dla stron internetowych
