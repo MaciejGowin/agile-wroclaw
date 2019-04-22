@@ -78,12 +78,12 @@
 
 ## 4. Delivery ##
 * cloud
-* cloud provider (AWS, Azure, Google Cloud)
+* **cloud provider** - dostawca usług chmurowych. Dostępni usługodawcy: AWS, Microsoft Azure, Google Cloud.
 * data center
 * continuous integration (CI)
 * continuous delivery (CD)
 * failfast delivery
-* Jenkins
+* **Jenkins** - narządzie służące do automatyzacji procesów związanych z budowaniem, testowanie i uruchamianiem systemów. 
 * pipeline
 * virtualization
 * container (Docker)
@@ -129,28 +129,28 @@
 * **release blocker** - błąd, który sprawia, że nowa wersja oprogramowania nie może zostać wdrożona w związku niewłaściwym zachowaniem systemu
 * **lack of requirements** - brak wymagań
 * **acceptance criteria** - kryteria akceptacyjne definiowane w celu określenia ram dla ktrych dana fukcjonalność jest uznawana za działającą zgodnie z wymaganiami.
-* Definition of Done (DoD)
-* Definition of Ready (DoR)
+* **Definition of Done (DoD)** - w metodologi Agile, lista kryteriów, które muszą być spełnione aby dane zadanie (story) mogło zostać uznane za ukończone.
+* **Definition of Ready (DoR)** -  w metodologi Agile, lista kryteriów, które muszą być spełnione aby dane zadanie (story) mogło zostać uznane za gotowe do wzięcia pod uwagę podczas planowania kolejnej iteracji.
 * **priorities** - priorytety dla zadań
 
 ## 6. Maintenance ##
 * **support** - grupa ludzi lub systemów odpowiedzialna za wsparcie systemu w trakcie jego działania.
-* **1st/2nd/3rd Line Support** - poziomy wsparcia dla systemw informatycznych
-* hotfix
+* **1st/2nd/3rd Line Support** - poziomy wsparcia dla systemw informatycznych.
+* **hotfix** - zmiana w kodzie systemu zawierająca poprawkę dla danego problemu.
 * **backlog** - lista zadań do wykonania. Może składać sięz nowych funkcjonalności, poprawek, ulepszeń. 
-* code revert
-* life cycle politics
-* customer service
-* migration
-* disaster recovery
-* ticket
-* troubleshooting
-* RFC (request for change)
-* change management
-* documentation
-* backup
-* upgrade
-* user feedback
-* monitoring
-* patch
-* metrics
+* **code revert** - odwrócenie zmian w kodzie, które uprzednio zostały dodane.
+* **life cycle politics** - polityki związane z cyklem życia zmian oraz zgłoszonych błędów.
+* **customer service** - obsługa klientów systemu.
+* **migration** - proces przeniesienia/transformacji z jednego systemu na inny.
+* **disaster recovery** - proces zabezpieczenia systemu przed efektami negatywnych zdarzeń. Ma na celu przywrócenie funkcjonowania systemu po zaprzestaniu działania.
+* **ticket** - zgłoszenie dotyczące poprawy funcjonalności systemu lub też naprawy danego błędu.
+* **troubleshooting** - rozwiązywanie problemów
+* **RFC (request for change)** - rządanie zmian w systemie
+* **change management** - zarządzanie zmianami w systemie
+* **documentation** - dokumentacja systemu
+* **backup** - kopia zapasowa. Dotyczy głównie danych, na których działą system.
+* **upgrade** - aktualizacja systemu do nowszej wersji.
+* **user feedback** - informacja zwrotna o działąniu systemu pochądząca od użytkowników. Używana jest jako podstawa do analizy działania system i wdrożeń zmian.
+* **monitoring** - monitorowanie/sprawdzanie działanie aplikacji
+* **patch** - poprawka
+* **metrics** - mierzalny zbiór danych dotyczący jakości działania systemu
