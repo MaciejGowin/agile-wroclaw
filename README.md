@@ -1,15 +1,19 @@
 # IT topics #
 
+Informacje o zmianach oraz nowych dokumentach znajdziesz pod: https://www.facebook.com/coderbrother
+
 ## 1. Architecture ##
 * **relations (one-to-many, many-to-many)** - poprzez relację rozumiemy zalezność pomiedzy komponentami, zasobami, itp. Jako przykładu możemy użyć relacji ojciec-syn. Jest to typowa relacja jeden-do-wielu (one-to-many). Jeden ojciec może posiadać wielu synów, ale konkretny syn ma tylko jednego ojca.
-* **backend system (BE)** - to system odpowiedzialny za przetwarzanie danych otrzymanych lub wykonywanie zadań przekazanych przez system FE. W odpowiedzi na rządanie może on udzielić odpowiedzi i przekazać rezultaty do systemu FE.
-* **frontend system (FE)** - to system zbierający rządania klienta i przekazujący zadania do systemu BE.
+* **backend system (BE)** - to system odpowiedzialny za przetwarzanie danych otrzymanych lub wykonywanie zadań przekazanych przez system FE. W odpowiedzi na żądanie może on udzielić odpowiedzi i przekazać rezultaty do systemu FE.
+* **frontend system (FE)** - to system zbierający żądania klienta i przekazujący zadania do systemu BE.
 * **cloud system (AWS, Azure)** - system odpowiedzialny za dynamiczne tworzenie zasobów infrastruktury taki jak serwery, połączenia sieciowe, bazy danych itp. Różni się to od podejscia, w którym wszystkie zasoby są predefiniowane a każde nowe wymagania są związane z ingerencją zespołu odpowiedzialnego za infrastrukturę.
+* **cloud provider** - dostawca usług chmurowych. Dostępni usługodawcy: AWS, Microsoft Azure, Google Cloud.
+* **data center** - dedykowane miejsce przeznaczona do przechowywania działającej infrastruktury informatycznej: serwerów, urządzeń przechowywania danych oraz infrastruktury sieciowej.
 * **microservice** - system odpowiedzialny za konkretną funkcjonalność. Dostarcza rozwiązań dla jasno określonej domeny.
 * **monolith system/application** - system odpowiedzilny za realicję złożonych zadań obejmujących wiele zadań, które niekoniecznie są związane z tą samą domeną.
 * **No-SQL database** - baza danych, w której dane są modelowane w sposób inny niż za pomocą relacji znanych relacyjnych baz danych.
 * **relational database** - baza daych, w której podstawą modelowania danych są relacje.
-* **proxy** - pośrednik w systemach informatycznych. Odpowiedzialny za wykonywanie działań w imieniu osoby wysyłającej rządanie.
+* **proxy** - pośrednik w systemach informatycznych. Odpowiedzialny za wykonywanie działań w imieniu osoby wysyłającej żądanie.
 * **security** - ogólnie pojęte bezpieczeństwo, które może odnosić się do bezpieczeństwa sieci, systemów, danych, itp.
 * **WebService** - usługa sieciowa mająca na celu przetworzenie otrzymanego żądania, którego format jest z góry określony. Najczęstszym przykładem usługi sieciowej jest system odpowiadający na predefiniowane zapytania przy użyciu protokołu HTTP w formacie XML.
 * **Rest API** - podejcie do architektury systemów, w którym wymiana danych pomiędzy systemami odbywa się w sposób bezstanowy poprzez jednorodny interfejs.
@@ -77,23 +81,20 @@
 * **code review tool (Gerrit)** - narzędzia ułatwiające i przyspieszające proces sprawdzania jakości kodu.
 
 ## 4. Delivery ##
-* cloud
-* **cloud provider** - dostawca usług chmurowych. Dostępni usługodawcy: AWS, Microsoft Azure, Google Cloud.
-* data center
-* continuous integration (CI)
-* continuous delivery (CD)
-* failfast delivery
+* **continuous integration (CI)** - proces automatycznego budowania oprogramowania rozpoczynający się od umieszczenia kodu we wspólnym repozytorium a kończący się na ostatecznej intergracji wraz z innymi zamianami.
+* **continuous delivery (CD)** - rozszerzony process CI o automatyczne uruchamianie nowych zmian i dostarczanie ich na środowiska testowe.
+* **failfast delivery** - podejśćie w dostarczaniu oprogramowania, w którym zmiany są wprowadzane dynamicznie biorąc pod uwagę ewentualne błędy. Zakłada się, że wprowadzane błędy są akceptowane ale powinny zostać szybko naprawione.
 * **Jenkins** - narządzie służące do automatyzacji procesów związanych z budowaniem, testowanie i uruchamianiem systemów. 
-* pipeline
-* virtualization
-* container (Docker)
-* hosting
-* VPC
-* Kubernetes
-* DevOps
-* orchestration
-* Ansible
-* release
+* **pipeline** - sposób szeregowego przetwarzania danych lub informacji, składający się z etapów, w którym to dane wyjściowe danego etapu stają się danymi wejściowymi kolejnego.
+* **virtualization** - w uproszczeniu stworznenie wirtualnej wersji czegość, która ma za zadanie dostarczań funkcjonalności faktycznego zasobu. Przykładem może być wirtualizacja jednego serwera poprzez podzielenie jego zasobów i udostępnienie ich jako 2 osobnych wirtualnych serwerow. Często wirtualizacja jest transparentna dla użytkownika końcowego.
+* **container (Docker)** - przykład wirtualizacji, kontener jest jednostką oprogramowania, która zawiera daną aplikację oraz wszystkie wymagane prerekwizyty potrzebne do jej uruchomienia. Może on zostań dzięki temu szybko uruchomiony oraz jest niezależny od środowiska, na którym jest uruchamiany.
+* **hosting** - udostępnianie zasobów serwera przez dostawcę usług internetowych.
+* **VPC** - grupa zasobów tworzonych na żądanie w środowisku chmury wprowadzająca określony poziom izolacji od innch zasobów stworzonych dla innej organizacjai.
+* **Kubernetes** - open-source'owy system do zarządzania kontenerami umożliwiający automatyzację procesu uruchamiania, skalowania oraz zarządzania aplikacjami.
+* **DevOps** - zbiór praktyk łączących zespoły rozwoju oprogramowania (dev, development) oraz utrzymywania (ops, operations) w celu skrócenia czasu pełnego cyklu dostarczania oprogramowania. Kładzie nacisk na wpółpracę zespołów lub też przejmowanie niektórych obowiązków jednego z zespołów przez drugi w celu usprawnienia procesu.
+* **orchestration** - automatyczna konfiguracja, koordynacja oraz zarządzanie systemami komputerowymi lub oprogramowaniem.
+* **Ansible** - narzędzie służące to automatuyzacji tworzenia i zarządzania infrastruktury systemów IT.
+* **release** - proces uruchamiania nowej wersji oprogramowania, używane też w kontekście nazwy konkretnej wersji.
 
 ## 5. Quality Assurance ##
 * **bug** - błąd, który wystąpił w oprogramowaniu. Jest to zachowanie niezgodne z wymaganiami.
@@ -145,7 +146,7 @@
 * **disaster recovery** - proces zabezpieczenia systemu przed efektami negatywnych zdarzeń. Ma na celu przywrócenie funkcjonowania systemu po zaprzestaniu działania.
 * **ticket** - zgłoszenie dotyczące poprawy funcjonalności systemu lub też naprawy danego błędu.
 * **troubleshooting** - rozwiązywanie problemów
-* **RFC (request for change)** - rządanie zmian w systemie
+* **RFC (request for change)** - żądanie zmian w systemie
 * **change management** - zarządzanie zmianami w systemie
 * **documentation** - dokumentacja systemu
 * **backup** - kopia zapasowa. Dotyczy głównie danych, na których działą system.
